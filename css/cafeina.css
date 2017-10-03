@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url("../fonts/roboto-Condensed.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url("../fonts/Roboto-Black.ttf");
+	font-size: 1em;
+}
+header {
+	width: 100%;
+	height: 50px;
+	background-color: #d2b48c;
+	z-index: 2;
+    position: relative;
+}
+header .container {
+	position: relative;
+}
+header #logotipo {
+	position: absolute;
+	top: 24px;
+	z-index: 3;
+	margin-left: -10%;
+}
+#banner h1.efeito {
+	color:#d2b48c;
+	font-size:-10em;
+}
+#menu {
+	margin: 12px 0;
+	margin-right: -10%;
+}
+#menu li {
+	display: inline-block;
+	font-family: "Roboto-Black";
+}
+#menu li a {
+	color: #6c534f;
+	font-size: 18px;
+	padding: 10px 10px;
+	font-weight: bold;
+}
+#banner {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background: url("../img/banner.jpg") no-repeat;
+	background-position: 0px -100px;
+	top: -130px;
+}
+#banner h1 {
+	transition:1s;
+	color: #fff;
+	top: 155px;
+	position: relative;
+	font-size: 55px;
+	text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+	font-family: 'Roboto-Black';
+	text-align: center;
+}
+#banner h1 small {
+	font-size: 32px;
+	display: block;
+	color: #FFF;
+	font-family: 'Roboto-Black';
+	font-weight: bold;
+}
+#news {
+	position: relative;
+    top: -75px;
+}
+#news h2 {
+	color:#6c534f;
+	font-family: 'Roboto-Black';
+	font-size: 35px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#news hr {
+	border:#d2b48c solid 1px;
+	width: 250px;
+	margin: 0 auto;
+}
+#news .thumbnails {
+	margin-top: 20px;
+	margin-left: 13%;
+}
+#news .thumbnails h3 {
+	color: #6c534f;
+	font-size: 22px;
+	font-family: 'Roboto-Black';
+	font-weight: bold;
+	margin-bottom: 0;
+	text-align: center;
+}
+#news .thumbnails .item-inner {
+	padding: 10px;
+}
+#news .thumbnails .item-inner img {
+	width: 100%;
+}
+footer {
+	margin-top: 32px;
+}
+footer .row {
+	width: 110%;
+}
+footer .row p {
+	line-height: 60px;
+	margin-bottom: 0;
+	margin-left: 20%;
+}
+footer .row-cinza-claro {
+	height: 10px;
+	background-color: #6c534f;
+}
+footer .row-cinza-escuro {
+	height: 60px;
+	background-color: #d2b48c;
+	border-top: #242D37 1px solid;
+}
+footer .pull-left {
+	font-family: 'roboto-condensed';
+	font-size: 16px;
+	color: #666;
+}
+video {
+	width: 60%;
+}
