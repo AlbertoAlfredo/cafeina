@@ -125,10 +125,11 @@ footer {
     bottom:0;
     width:100%;
 }
-section{
+container{
 	height: 100%;
 	overflow: auto;
 	width: 100%;
+	position: absolute;
 
 }
 video {
