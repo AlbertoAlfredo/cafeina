@@ -71,7 +71,6 @@ header #logotipo {
 }
 #news {
 	position: relative;
-
 	top: -75px;
 }
 #news h2 {
@@ -130,7 +129,4 @@ footer .pull-left {
 	font-family: 'roboto-condensed';
 	font-size: 16px;
 	color: #666;
-}
-video {
-	width: 60%;
 }

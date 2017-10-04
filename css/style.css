@@ -38,10 +38,8 @@
   left: 2%;
   top: 3%;
 }
-
-
 .painel-int{
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   border: 0px;
@@ -51,11 +49,37 @@
   padding-top: 1.5%;
   padding-bottom: 1%;
 }
-
-
+.container{
+  width: 80%;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 3px;
+  margin-top: 132px;
+}
+.container img{
+  border-radius: 7px 7px 7px 7px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #d2b48c;
+  border-radius: 7pt;
+  background: #6c534f;
+}
+.container h3{
+  color: #6c534f;
+  font-size: relative;
+}
 .colado{
   margin: 0px;
   padding: 0px;
+}
+.cad1{
+  margin-top: -80px;
+}
+.cad2{
+  margin-top: 10px;
+}
+.cad3{
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 992px) {
