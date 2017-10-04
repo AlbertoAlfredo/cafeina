@@ -69,6 +69,7 @@ header #logotipo {
 #news {
 
     top: -75px;
+		margin-bottom: auto;
 }
 #news h2 {
 	color:#6c534f;
