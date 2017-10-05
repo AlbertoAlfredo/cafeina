@@ -98,14 +98,6 @@
 .container a:hover{
   text-decoration: none;
 }
-@media screen and (min-width: 992px) {
-  .texto-p {
-    font-size: 30px;
-  }
-  .texto-g {
-    font-size: 55px;
-  }
-}
 label{
   color: #6c534f;
 }
@@ -124,4 +116,15 @@ html{
   position: relative;
   width: 50%;
 
+}
+.semBorda{
+  border: 0px;
+}
+@media screen and (min-width: 992px) {
+  .texto-p {
+    font-size: 30px;
+  }
+  .texto-g {
+    font-size: 55px;
+  }
 }
