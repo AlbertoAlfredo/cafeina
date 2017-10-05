@@ -126,10 +126,20 @@ html{
   float: left;
   position: relative;
   width: 50%;
-
 }
 .semBorda{
   border: 0px;
+}
+#qs{
+  margin-top: 5%;
+}
+#logn{
+   margin-top: 5%;
+   margin-bottom: 6%;
+}
+#icn{
+  margin-top: 85%;
+  margin-left: -38%;
 }
 @media screen and (min-width: 992px) {
   .texto-p {
