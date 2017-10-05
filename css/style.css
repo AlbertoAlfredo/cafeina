@@ -119,3 +119,9 @@ input{
 html{
   overflow-y: scroll;
 }
+.centro{
+  float: left;
+  position: relative;
+  width: 50%;
+
+}

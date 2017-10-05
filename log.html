@@ -14,15 +14,12 @@
 
 		<div class="container-fluid colado">
 			<nav role="navigation" class="navbar navbar-default menu texto-marron">
-
 					<div class="navbar-header">
 							<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-
 									<span class="sr-only">Navegaçao Responsiva</span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
-
 							</button>
 					</div>
 
@@ -41,7 +38,6 @@
 			<header>
 				<div id="logotipo" class="hidden-sm hidden-xs"><img src="img/logo.png" alt="Logotipo"></div>
 				<div class="panel panel-default banner">
-
 					<div class="panel-body">
 						<h1 class="h1 texto texto-central texto-g">CAFEÍNA.COM</h1>
 						<p class="h3 texto texto-central texto-p">Seja bem vindo</p>
@@ -49,103 +45,135 @@
 
 				</div>
 			</header>
-
+<!-- INICIO DIV LOGIN-->
 			<div id="news" class="container">
-
 				<div class="row text-center">
-
-					<h2 class="cad1">Preencha o cadastro para logar</h2>	
-					<h1 class="cad2">Cadastro</h1>
-
-				<div id="forml">
-				<form action="Script_do_Formulario.php" method="post">
-
-				<!-- DADOS PESSOAIS-->
-				<fieldset class="cad3">
-				 <legend>Dados Pessoais</legend>
-				 <table cellspacing="10">
-				  <tr>
-				   <td>
-				    <label for="nome">Nome: </label>
-				   </td>
-				   <td align="left">
-				    <input type="text" name="email">
-				   </td>
-				   <td>
-				    <label for="sobrenome">Sobrenome: </label>
-				   </td>
-				   <td align="left">
-				    <input type="text" name="sobrenome">
-				   </td>
-				  </tr>
-				  <tr>
-				   <td>
-				    <label>Nascimento: </label>
-				   </td>
-				   <td align="left">
-				    <input type="text" name="dia" size="2" maxlength="2" value="dd">
-				   <input type="text" name="mes" size="2" maxlength="2" value="mm">
-				   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
-				   </td>
-				  </tr>
-				 </table>
-				</fieldset>
-				<br/>
-				<!-- DADOS DE LOGIN -->
-				<fieldset>
-				 <legend>Dados de login</legend>
-				 <table cellspacing="10">
-				  <tr>
-				   <td>
-				    <label for="email">E-mail: </label>
-				   </td>
-				   <td align="left">
-				    <input type="text" name="email">
-				   </td>
-				  </tr>
-				  <tr>
-				   <td>
-				    <label for="imagem">Imagem de perfil:</label>
-				   </td>
-				   <td>
-				    <input type="file" name="imagem" >
-				   </td>
-				  </tr>
-				  <tr>
-				   <td>
-				    <label for="login">Login de usu�rio: </label>
-				   </td>
-				   <td align="left">
-				    <input type="text" name="login">
-				   </td>
-				  </tr>
-				  <tr>
-				   <td>
-				    <label for="pass">Senha: </label>
-				   </td>
-				   <td align="left">
-				    <input type="password" name="pass">
-				   </td>
-				  </tr>
-				  <tr>
-				   <td>
-				    <label for="passconfirm">Confirme a senha: </label>
-				   </td>
-				   <td align="left">
-				    <input type="password" name="passconfirm">
-				   </td>
-				  </tr>
-				 </table>
-				</fieldset>
-				<br/>
-				<input type="submit">
-				<input type="reset" value="Limpar">
-				<br/>
-				</form>
-				</div>
-				</div>
+					<h2 class="cad1">Faça seu login ou se cadastre para acesso.</h2>
+					<!-- INICIO DIV CADASTRO-->
+					<div id="cadastro" class="centro">
+					<h1 class="cad2">Login</h1>
+						<div id="forml">
+							<form action="Script_do_Formulario.php" method="post">
+								<fieldset class="cad3">
+									<legend>Acessso ao sistema</legend>
+				 					<table cellspacing="10">
+				  					<tr>
+											<td>
+				    						<label for="nome">Usuário: </label>
+				   						</td>
+				   						<td align="left">
+				    						<input type="text" name="email">
+				   						</td>
+										</tr>
+										<tr>
+				   						<td>
+				    						<label for="sobrenome">Senha: </label>
+				   						</td>
+				   						<td align="left">
+				    						<input type="password" name="sobrenome">
+				   						</td>
+				  					</tr>
+				 					</table>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				<!--FIM DIV LOGIN  -->
+				<!--INICIO DIV CADASTRO  -->
+<div id="cadastro" class="centro">
+	<h1 class="cad2">Cadastro</h1>
+		<div id="forml">
+			<form action="Script_do_Formulario.php" method="post">
+			<!-- DADOS PESSOAIS-->
+			<fieldset class="cad3">
+			<legend>Dados Pessoais</legend>
+			<table cellspacing="10">
+				<tr>
+					<td>
+						<label for="nome">Nome: </label>
+					</td>
+					<td align="left">
+						<input type="text" name="email">
+					</td>
+					<td>
+						<label for="sobrenome">Sobrenome: </label>
+					</td>
+					<td align="left">
+						<input type="text" name="sobrenome">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Nascimento: </label>
+					</td>
+					<td align="left">
+						<input type="text" name="dia" size="2" maxlength="2" value="dd">
+						<input type="text" name="mes" size="2" maxlength="2" value="mm">
+						<input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+					</td>
+			</tr>
+		</table>
+	</fieldset>
+	<br/>
+	<input type="submit">
+	<input type="reset" value="Limpar">
+	<br/>
+	<!-- DADOS DE LOGIN -->
+	<fieldset>
+	<legend>Dados de login</legend>
+	<table cellspacing="10">
+	<tr>
+	 <td>
+		<label for="email">E-mail: </label>
+	 </td>
+	 <td align="left">
+		<input type="text" name="email">
+	 </td>
+	</tr>
+	<tr>
+	 <td>
+		<label for="imagem">Imagem de perfil:</label>
+	 </td>
+	 <td>
+		<input type="file" name="imagem" >
+	 </td>
+	</tr>
+	<tr>
+	 <td>
+		<label for="login">Login de usuário: </label>
+	 </td>
+	 <td align="left">
+		<input type="text" name="login">
+	 </td>
+	</tr>
+	<tr>
+	 <td>
+		<label for="pass">Senha: </label>
+	 </td>
+	 <td align="left">
+		<input type="password" name="pass">
+	 </td>
+	</tr>
+	<tr>
+	 <td>
+		<label for="passconfirm">Confirme a senha: </label>
+	 </td>
+	 <td align="left">
+		<input type="password" name="passconfirm">
+	 </td>
+	</tr>
+	</table>
+	</fieldset>
+	<br/>
+	<input type="submit">
+	<input type="reset" value="Limpar">
+	<br/>
+	</form>
+	</div>
+	</div>
+</div>
 			</div>
-
+<!--FIM DIV CADASTRO  -->
 			<div class="panel panel-default painel-ext">
 				<div class="panel-body">
 				</div>
