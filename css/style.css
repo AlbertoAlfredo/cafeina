@@ -106,3 +106,16 @@
     font-size: 55px;
   }
 }
+label{
+  color: #6c534f;
+}
+input{
+
+  color: #6c534f;
+  border-color: :#6c534f;
+  border-radius: 4px;
+  margin: 15px;
+}
+html{
+  overflow-y: scroll;
+}
