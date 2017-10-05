@@ -1,13 +1,14 @@
 @font-face {
-	font-family: Roboto;
+	font-family: 'Roboto';
 	src: url("../fonts/roboto-Condensed.ttf");
 	font-size: 1em;
 }
 body{
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
+
 }
 .font-roboto{
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .menu {
   background-color: #d2b48c;
@@ -109,18 +110,9 @@ body{
 .container a:hover{
   text-decoration: none;
 }
-<<<<<<< HEAD
-@media screen and (min-width: 992px) {
-  .texto-p {
-    font-size: 30px;
-  }
-  .texto-g {
-    font-size: 55px;
-  }
-=======
+
 label{
   color: #6c534f;
->>>>>>> bb3407a600c0fb349f96adf1cf0afbeee0a43156
 }
 input{
   border-color: :#6c534f;
