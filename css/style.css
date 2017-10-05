@@ -24,6 +24,7 @@
 	font-family: 'Roboto-Black';
 }
 
+
 .texto-p {
   color: #fff;
 }
@@ -84,7 +85,9 @@
 .semBorda {
   border: 0px;
 }
-
+.container a:hover{
+  text-decoration: none;
+}
 @media screen and (min-width: 992px) {
   .texto-p {
     font-size: 30px;
