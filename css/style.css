@@ -81,6 +81,9 @@
 .cad3{
   margin-top: 30px;
 }
+.semBorda {
+  border: 0px;
+}
 
 @media screen and (min-width: 992px) {
   .texto-p {
