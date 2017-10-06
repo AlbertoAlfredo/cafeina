@@ -37,7 +37,6 @@ body{
   font-family: 'Roboto',sans-serif;
 }
 
-
 .texto-p {
   color: #fff;
 }
@@ -162,7 +161,27 @@ html{
 .contacts{
   margin-top: 32px;
   margin-left: -22px;
-
+}
+.content{
+  margin-top: -220px;
+}
+.content h2{
+  margin-top: -30px;
+}
+#descricao-contato{
+  margin-top: 60px;
+}
+.aiContactSafe_row{
+  margin-top: -325px;
+  margin-bottom: 150px;
+}
+#an{
+  margin-top: 320px;
+  margin-left: 553px;
+}
+#aics_anexo{
+  margin-left: 550px;
+  margin-top: 10px;
 }
 @media screen and (min-width: 992px) {
   .texto-p {
