@@ -142,6 +142,12 @@ html{
   margin-top: 85%;
   margin-left: -38%;
 }
+.motopress-text-obj p{
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px
+}
 @media screen and (min-width: 992px) {
   .texto-p {
     font-size: 30px;
