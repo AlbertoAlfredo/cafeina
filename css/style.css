@@ -148,6 +148,22 @@ html{
   margin-right: 20px;
   margin-bottom: 20px
 }
+.content{
+  margin-top: -180px;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px
+}
+.content p{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.contacts{
+  margin-top: 32px;
+  margin-left: -22px;
+
+}
 @media screen and (min-width: 992px) {
   .texto-p {
     font-size: 30px;
