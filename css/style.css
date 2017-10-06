@@ -13,12 +13,11 @@ body{
 .menu {
   background-color: #d2b48c;
   margin-bottom: 0px;
-
+  text-align: right;
 }
 .texto-marron{
   color: #666;
 }
-
 .banner{
   background-color: #6c534f;
   color: #fff;
@@ -26,9 +25,7 @@ body{
   margin-bottom: 4%;
   margin-top: 0%;
 }
-
 .texto {
-
   position: relative;
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -36,7 +33,6 @@ body{
   text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
   font-family: 'Roboto',sans-serif;
 }
-
 .texto-p {
   color: #fff;
 }
@@ -182,6 +178,18 @@ html{
 #aics_anexo{
   margin-left: 550px;
   margin-top: 10px;
+}
+.mns li{
+  background-color: #d2b48c;
+  -webkit-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  -moz-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  -o-transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+  transition: all 200ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+}
+.mns li:hover {
+  background: rgba(108,83,79,0.1);
+  border-color:#fff;
+  transition-duration: 0.4s
 }
 @media screen and (min-width: 992px) {
   .texto-p {
