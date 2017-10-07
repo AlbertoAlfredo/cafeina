@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="lib/import.css">
+		<title>Cafeína</title>
+	</head>
+	<body>
+
+		<div class="container-fluid colado">
+			<nav role="navigation" class="navbar navbar-default menu texto-marron">
+					<div class="navbar-header">
+							<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+									<span class="sr-only">Navegaçao Responsiva</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+							</button>
+					</div>
+
+					<div id="navbarCollapse" class="collapse navbar-collapse">
+						<div class="mns">
+							<ul class="nav navbar-nav pull-right">
+								<li ><a href="index.html">HOME</a></li>
+								<li><a href="quemsomos.html">QUEM SOMOS</a></li>
+								<li><a href="contato.html">CONTATO</a></li>
+								<li><a href="login.html">LOGIN / CADASTRO</a></li>
+							</ul>
+						</div>
+					</div>
+			</nav>
+
+			<header>
+				<div id="logotipo" class="hidden-sm hidden-xs"><img src="img/logo.png" alt="Logotipo"></div>
+				<div class="panel panel-default banner">
+					<div class="panel-body">
+						<h1 class="h1 texto texto-central texto-g">CAFEÍNA.COM</h1>
+						<p class="h3 texto texto-central texto-p">Seja bem vindo</p>
+					</div>
+
+				</div>
+			</header>
+
+
+
+
+
+    <section class="container-fluid">
+      <h1 align="center">Faça seu login ou se cadastre para acesso</h1>
+
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <h2>Login</h2>
+        <div class="input-group">
+          <form class="" action="index.html" method="post">
+            <div class="input">
+              <label for="nome">Email: </label>
+              <input type="email" name="email">
+            </div>
+            <div class="input">
+              <label for="senha">Senha: </label>
+              <input type="password" name="senha">
+            </div>
+            <div class="btn-group">
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Limpar">
+            </div>
+          </form>
+        </div>
+
+
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <h2>Cadastro</h2>
+        <h3>Dados Pessoais</h3>
+        <div class="input-group">
+          <form action="Script_do_Formulario.php" method="post" class="form">
+            <div class="input">
+              <label for="imagem">Imagem de perfil:</label>
+              <input type="file" name="imagem">
+            </div>
+            <div class="input">
+              <label for="nome">Nome: </label>
+              <input type="text" name="nome">
+            </div>
+            <div class="input">
+              <label for="email">E-mail: </label>
+              <input type="email" name="email">
+            </div>
+            <div class="input">
+              <label for="senha">Senha: </label>
+              <input type="password" name="senha">
+            </div>
+            <div class="input">
+              <label for="passconfirm">Confirme a senha: </label>
+              <input type="password" name="passconfirm">
+            </div>
+            <div class="input">
+              <label>Nascimento:</label>
+              <input type="date" name="nascimento">
+            </div>
+            <div class="btn-group">
+              <input type="submit" value="Entrar">
+    					<input type="reset" value="Limpar">
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+      <div class="panel panel-default painel-ext">
+				<div class="panel-body">
+				</div>
+				<div class="panel-footer painel-int texto-central texto-marron menu">Copyright © Thiago Telles | Albero Afredo | Valmir Hernandes 2017. All rights reserved.</div>
+			</div>
+		</div>
+	</body>
+</html>
