@@ -73,7 +73,15 @@ body{
   border-radius: 7pt;
   background: #6c534f;
 }
-.container h3{
+h3{
+  color: #6c534f;
+  font-size: relative;
+}
+h1{
+  color: #6c534f;
+  font-size: relative;
+}
+h2{
   color: #6c534f;
   font-size: relative;
 }
@@ -90,20 +98,21 @@ body{
 .cad3{
   margin-top: 30px;
 }
-.container a:active {
+.link:visited {
   text-decoration: none;
+	color: #6c534f;
 }
-.container a:visited {
-  text-decoration: none; color: #000099
+.link:hover {
+  text-decoration: underline;
+	color: #6c534f;
 }
-.container a:hover {
-  text-decoration: underline;color: #000099
-}
-.container a:link {
-  text-decoration: none;color: #000099
-}
-.container a:hover{
+.link:link {
   text-decoration: none;
+	color: #6c534f;
+}
+.link:hover{
+  text-decoration: none;
+	color: green;
 }
 
 label{
