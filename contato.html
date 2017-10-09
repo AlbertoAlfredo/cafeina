@@ -1,80 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<script src="lib/jquery/jquery.min.js"></script>
-	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="lib/import.css">
-	<title>Cafeína</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="lib/import.css">
+  <link rel="stylesheet" href="css/template/contato.css">
+  <title>Cafeína</title>
 </head>
-<body>
-	<div class="container-fluid colado">
-		<nav role="navigation" class="navbar navbar-default menu texto-marron">
+<body class="container-fluid container-fluid-colado">
+    <header>
+      <nav role="navigation" class="navbar navbar-default fonte fonte-menu menu">
+          <div class="navbar-header">
+              <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
 
-				<div class="navbar-header">
-					<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                  <span class="sr-only">Navegaçao Responsiva</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
 
-					<span class="sr-only">Navegaçao Responsiva</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+              </button>
+          </div>
 
-				</button>
-				</div>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <div>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="#">HOME</a></li>
+                <li><a href="quemsomos.html">QUEM SOMOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li><a href="login.html">LOGIN / CADASTRO</a></li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+      <div class="container-fluid container-fluid-colado">
+        <div class="panel panel-default banner">
+          <div id="logotipo" class="hidden-sm hidden-xs absolute position-logo"><img src="img/logo.png" alt="Logotipo"></div>
+          <div class="panel-body relative">
+            <h1 class="fonte h1 fonte-branca fonte-centralizada fonte-g">CAFEÍNA.COM</h1>
+            <p class="fonte h3 fonte-branca fonte-centralizada fonte-p">Seja bem vindo</p>
+          </div>
+        </div>
+      </div>
+    </header>
 
-				<div id="navbarCollapse" class="collapse navbar-collapse">
-					<div class="mns">
-						<ul class="nav navbar-nav pull-right">
-							<li><a href="index.html">HOME</a></li>
-							<li><a href="quemsomos.html">QUEM SOMOS</a></li>
-							<li><a href="contato.html">CONTATO</a></li>
-							<li><a href="login.html">LOGIN / CADASTRO</a></li>
-						</ul>
-					</div>
-				</div>
-		</nav>
-		<header>
-			<div id="logotipo" class="hidden-sm hidden-xs"><img src="img/logo.png" alt="Logotipo"></div>
-			<div class="panel panel-default banner">
 
-				<div class="panel-body">
-					<h1 class="h1 texto texto-central texto-g">CAFEÍNA.COM</h1>
-					<p class="h3 texto texto-central texto-p">Contato</p>
-				</div>
+			<section class="container container-com-footer">
 
-			</div>
-		</header>
+											<h2 class="fonte">Vamos conversar?</h2>
+												<p class="fonte">Todos nossos projetos de sucesso começaram com uma conversa. Acreditamos que o contato direto entre a ideia, seu idealizador e quem é capaz de transformá-la em resultados é a peça chave para o êxito de qualquer empreitada.</p>
 
-			<section>
-				<div class="container">
-					<div>
+													<h3 class="fonte">Contatos</h3>
+														<p class="fonte"><a class="fonte link" href="tel:+5553981329857">(53) 98132-9857</a><br><a class="fonte link" href="tel:+5567984848710">(67) 98484-8710</a><br><a class="fonte link" href="mailto:cafeiona.com@outlook.com">cafeina.com@outlook.com</a></p>
 
-						 	<div>
-									<div>
-										<div>
-											<h2 class="">Vamos conversar?</h2>
-												<p>Todos nossos projetos de sucesso começaram com uma conversa. Acreditamos que o contato direto entre a ideia, seu idealizador e quem é capaz de transformá-la em resultados é a peça chave para o êxito de qualquer empreitada.</p>
-										</div>
-									</div>
-												<div>
-
-													<h3>Contatos</h3>
-														<p><a class="link" href="tel:+5553981329857">(53) 98132-9857</a><br><a class="link" href="tel:+5567984848710">(67) 98484-8710</a><br><a class="link" href="mailto:cafeiona.com@outlook.com">cafeina.com@outlook.com</a></p>
-
-													<h3>Rio Grande, RS</h3>
-														<p>Avenida Rheingantz, 101, Bairro São Paulo</p>
-													<h3>Três Lagoas, MS</h3>
-														<p>Rua Dom Aquino, 704, Jardim Santa Luzia</p>
-												</div>
+													<h3 class="fonte">Rio Grande, RS</h3>
+														<p class="fonte">Avenida Rheingantz, 101, Bairro São Paulo</p>
+													<h3 class="fonte">Três Lagoas, MS</h3>
+														<p class="fonte">Rua Dom Aquino, 704, Jardim Santa Luzia</p>
 				</section>
-				<footer>
-					<div class="panel panel-default painel-ext">
-						<div class="panel-body"></div>
 
-							<div class="panel-footer painel-int texto-central texto-marron menu">Copyright © Thiago Telles | Albero Afredo | Valmir Hernandes 2017. All rights reserved.</div>
-					</div>
-				</footer>
-	</body>
-</html>
+
+
+				    <footer class="panel-footer container-fluid semBorda borda-topo-grossa fixed fixed-botton footer-fluid footer-fundo">
+				        <div class=" painel-int fonte fonte-centralizada semBorda footer-fundo">Copyright © Thiago Telles | Albero Afredo | Valmir Hernandes 2017. All rights reserved.</div>
+				    </footer>
+				</body>
+				</html>

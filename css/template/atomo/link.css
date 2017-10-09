@@ -1,0 +1,17 @@
+.link:visited {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.link:link {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: none;
+	color: green;
+}
+
+.link-marrom {
+  color: #6c534f;
+}

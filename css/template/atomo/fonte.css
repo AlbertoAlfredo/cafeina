@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url("./fonts/roboto-Condensed.ttf");
+	font-size: 1em;
+}
+.fonte{
+  font-family: 'Roboto', sans-serif;
+  color: #6c534f;
+}
+.fonte-branca {
+	color: white;
+}
+.fonte-cinza{
+  color: #666;
+}
+.fonte-centralizada {
+  text-align: center;
+}
+.fonte-menu {
+  position: relative;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+}
+
+.fonte p{
+  color: #fff;
+}
+
+.fonte h3{
+  font-size: relative;
+}
+.fonte h1{
+  font-size: relative;
+}
+.fonte h2{
+  font-size: relative;
+}
+@media screen and (min-width: 992px) {
+  .fonte-p {
+    font-size: 30px;
+  }
+  .fonte-g {
+    font-size: 55px;
+  }
+}

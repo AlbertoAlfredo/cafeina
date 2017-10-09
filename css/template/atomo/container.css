@@ -1,0 +1,14 @@
+.container-fluid-colado {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+.container {
+  background-color: #fff;
+  text-align: left;
+  border-radius: 3px;
+  margin-top: 4%;
+}
+.container-com-footer {
+  margin-bottom: 4%;
+}

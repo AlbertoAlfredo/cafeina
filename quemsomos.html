@@ -1,127 +1,86 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<script src="lib/jquery/jquery.min.js"></script>
-		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="lib/import.css">
-		<title>Cafeína</title>
-	</head>
-	<body>
-		<div class="container-fluid colado">
-	    <nav role="navigation" class="navbar navbar-default menu texto-marron">
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="lib/import.css">
+  <link rel="stylesheet" href="css/template/index.css">
+  <title>Cafeína</title>
+</head>
 
-	        <div class="navbar-header">
-	            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+<body class="container-fluid container-fluid-colado">
 
-	                <span class="sr-only">Navegaçao Responsiva</span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
+    <header>
+      <nav role="navigation" class="navbar navbar-default fonte fonte-menu menu">
+          <div class="navbar-header">
+              <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
 
-	            </button>
-	        </div>
+                  <span class="sr-only">Navegaçao Responsiva</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
 
-	        <div id="navbarCollapse" class="collapse navbar-collapse">
-	        	<div class="mns">
-		            <ul class="nav navbar-nav pull-right">
-		              <li><a href="index.html">HOME</a></li>
-		              <li><a href="quemsomos.html">QUEM SOMOS</a></li>
-		              <li><a href="contato.html">CONTATO</a></li>
-		              <li><a href="login.html">LOGIN / CADASTRO</a></li>
-		            </ul>
-		        </div>
-	        </div>
-	    </nav>
-	    <header>
-	      <div id="logotipo" class="hidden-sm hidden-xs"><img src="img/logo.png" alt="Logotipo"></div>
-	      <div class="panel panel-default banner">
+              </button>
+          </div>
 
-	        <div class="panel-body">
-	          <h1 class="h1 texto texto-central texto-g">CAFEÍNA.COM</h1>
-	          <p class="h3 texto texto-central texto-p">Quem Somos</p>
-	        </div>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <div>
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="#">HOME</a></li>
+                <li><a href="quemsomos.html">QUEM SOMOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li><a href="login.html">LOGIN / CADASTRO</a></li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+      <div class="container-fluid container-fluid-colado">
+        <div class="panel panel-default banner">
+          <div id="logotipo" class="hidden-sm hidden-xs absolute position-logo"><img src="img/logo.png" alt="Logotipo"></div>
+          <div class="panel-body relative">
+            <h1 class="fonte h1 fonte-branca fonte-centralizada fonte-g">CAFEÍNA.COM</h1>
+            <p class="fonte h3 fonte-branca fonte-centralizada fonte-p">Seja bem vindo</p>
+          </div>
+        </div>
+      </div>
+    </header>
 
-	      </div>
-	    </header>
-			<div id="qs" class="container">
-				<div class="row text-center">
+
+			<section id="quem-somos" class="container container-com-footer">
+				<div class="row fonte fonte-centralizada">
 					<h2>UM POUCO MAIS SOBRE A CAFEÍNA.COM</h2>
-					<hr>
 				</div>
-					<div  class="mp-row-fluid motopress-row " >
-						<div class="mp-span12 motopress-span">
-							<div class="motopress-text-obj" >
-								<p >Nossa empresa surgiu com o intuito de ser tornar referência no mercado em nossa área de atuação. Temos uma equipe qualificada e eficiente comprometida em superar as expectativas dos nossos clientes. Atuamos com seriedade, transparência e, sobretudo, respeito. Prezamos sempre pela qualidade do atendimento, estando prontos para atender e satisfazer as necessidades dos clientes.</p>
-							</div>
-						</div>
+					<div>
+								<p class="fonte">Nossa empresa surgiu com o intuito de ser tornar referência no mercado em nossa área de atuação. Temos uma equipe qualificada e eficiente comprometida em superar as expectativas dos nossos clientes. Atuamos com seriedade, transparência e, sobretudo, respeito. Prezamos sempre pela qualidade do atendimento, estando prontos para atender e satisfazer as necessidades dos clientes.</p>
 					</div>
-						<div  class="mp-row-fluid motopress-row ">
-							<div class="mp-span12 motopress-span">
-								<div class="motopress-text-obj">
-									<p><span style="line-height: 23px;" >Aqui é a descrição da postagem. Este espaço pode ser usado para divulgar notícias e/ou novidades do seu negócio. Pode ser usado também para destacar as principais promoções de produtos e serviços oferecidos pela sua empresa. É muito importante ter um blog de notícias, pois, além de ser um atrativo para seus clientes, também serve para otimizar a busca de sua empresa no google. Além de escrever textos você também pode adicionar várias fotos em sua postagem. Pode postar fotos de banners referentes às suas promoções. As possibilidades são infinitas. Aproveite tudo que o Liquida Sites tem a lhe oferecer!</span></p>
-								</div>
+						<div>
+									<p class="fonte">Aqui é a descrição da postagem. Este espaço pode ser usado para divulgar notícias e/ou novidades do seu negócio. Pode ser usado também para destacar as principais promoções de produtos e serviços oferecidos pela sua empresa. É muito importante ter um blog de notícias, pois, além de ser um atrativo para seus clientes, também serve para otimizar a busca de sua empresa no google. Além de escrever textos você também pode adicionar várias fotos em sua postagem. Pode postar fotos de banners referentes às suas promoções. As possibilidades são infinitas. Aproveite tudo que o Liquida Sites tem a lhe oferecer!</p>
 							</div>
-						</div>
-							<div  class="mp-row-fluid motopress-row">
-								<div class="mp-span12 motopress-span motopress-space">
-									<div class="motopress-space-obj">
-									</div>
-								</div>
-							</div>
-								<div  class="mp-row-fluid motopress-row ">
-									<div class="mp-span12 motopress-span">
-										<div  class="mp-row-fluid motopress-row ">
-											<div class="mp-span3 motopress-span">
-												<div class="col-xs-12 col-md-12 col-lg-4 ">
-												<div class="somos" ><img src="img/tt.jpg" title="Thiago" alt="1" class="motopress-image-obj-basic" /></div>
-												<div  class="mp-row-fluid motopress-row ">
-													<div class="mp-span3 motopress-span">
-														<div class="motopress-text-obj">
-															<p style="text-align: center; margin-top: 10px;"><strong>Thiago G. Telles</strong></p>
-															<p style="text-align: center;">Analista de Sistemas full-stack responsável pelo desenvolvimento web e mobile tadstelles@outlook.com</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="mp-span3 motopress-span">
-												<div class="col-xs-12 col-md-12 col-lg-4 ">
-												<div class="somos"><img src="img/vr.jpg" title="Valmir" alt="2" class="motopress-image-obj-basic" /></div>
-												<div class="mp-span3 motopress-span">
-													<div class="motopress-text-obj">
-														<p style="text-align: center; margin-top: 10px;"><strong>Valmir Hernandes Jr.</strong></p>
-														<p style="text-align: center;">Descreva um pouco sobre suas funções na empresa, bem como seu contato via e-mail</p>
-													</div>
-												</div>
-											</div>
-											</div>
-											<div class="mp-span3 motopress-span">
-												<div class="col-xs-12 col-md-12 col-lg-4 ">
-												<div class="somos"><img src="img/aa.jpg" title="Alberto" alt="3" class="motopress-image-obj-basic" /></div>
-												<div class="mp-span3 motopress-span">
-													<div class="motopress-text-obj">
-														<p style="text-align: center; margin-top: 10px;"><strong>Alberto Alfredo</strong></p>
-														<p style="text-align: center;">Descreva um pouco sobre suas funções na empresa, bem como seu contato via e-mail</p>
-													</div>
-												</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="somos" ><img src="img/tt.jpg" title="Thiago" alt="Foto-Thiago" class="imagem" ></div>
 
+                      <p class="fonte fonte-centralizada"><strong>Thiago G. Telles</strong></p>
+                      <p class="fonte fonte-centralizada">Analista de Sistemas full-stack responsável pelo desenvolvimento web e mobile tadstelles@outlook.com</p>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="somos"><img src="img/vr.jpg" title="Valmir" alt="Foto-Valmir" class="imagem" /></div>
 
+                    <p class="fonte fonte-centralizada"><strong>Valmir Hernandes Jr.</strong></p>
+                    <p class="fonte fonte-centralizada">Descreva um pouco sobre suas funções na empresa, bem como seu contato via e-mail</p>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="somos"><img src="img/aa.jpg" title="Alberto" alt="Foto-Alberto" class="imagem" /></div>
 
-								</div>
-							</div>
+                    <p class="fonte fonte-centralizada"><strong>Alberto Alfredo</strong></p>
+                    <p class="fonte fonte-centralizada">Desenvolvedor em sistemas para internet responsável pela correção de bugs e desenvolvimento web. albertoalfredo.profissional@gmail.com</p>
+              </div>
+              </section>
 
-			<div class="panel panel-default painel-ext">
-				<div class="panel-body">
-			</div>
-				<div class="panel-footer painel-int texto-central texto-marron menu">Copyright © Thiago Telles | Albero Afredo | Valmir Hernandes 2017. All rights reserved.</div>
-			</div>
-		</div>
-	</body>
-</html>
+							<footer class="panel-footer container-fluid semBorda borda-topo-grossa fixed fixed-botton footer-fluid footer-fundo">
+					        <div class=" painel-int fonte fonte-centralizada semBorda footer-fundo">Copyright © Thiago Telles | Albero Afredo | Valmir Hernandes 2017. All rights reserved.</div>
+					    </footer>
+					</body>
+					</html>

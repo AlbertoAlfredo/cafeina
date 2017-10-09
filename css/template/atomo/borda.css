@@ -1,0 +1,8 @@
+.semBorda {
+  border: 0px;
+}
+.borda-topo-grossa {
+  border-top: 10px;
+  border-color: #6c534f;
+	border-style: solid;
+}

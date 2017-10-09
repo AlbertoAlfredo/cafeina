@@ -1,0 +1,4 @@
+@import "../molecula/body.css";
+html{
+  overflow-y: scroll;
+}

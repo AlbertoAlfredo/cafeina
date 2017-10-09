@@ -1,0 +1,8 @@
+.imagem {
+  border-radius: 7px 7px 7px 7px;
+  width: 100%;
+  padding: 2%;
+  border: 1px solid #d2b48c;
+  border-radius: 7pt;
+  background: #6c534f;
+}
