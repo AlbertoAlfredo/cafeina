@@ -198,7 +198,7 @@ html{
 .mns li:hover {
   background: rgba(108,83,79,0.1);
   border-color:#fff;
-  transition-duration: 0.4s
+  transition-duration: 0.4s;
 }
 @media screen and (min-width: 992px) {
   .texto-p {
